@@ -1,16 +1,7 @@
-import Link from "next/link";
 import { useState } from "react";
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Drawer,
-  List,
-  ListItem,
-  ListItemText,
-  ListItemButton,
-} from "@mui/material";
+import { AppBar, Toolbar, IconButton, Drawer } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
+import NavItems from "./NavItems";
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -21,27 +12,6 @@ const Navbar = () => {
 
   const handleDrawerClose = () => {
     setIsDrawerOpen(false);
-  };
-
-  const NavItems = () => {
-    return (
-      <List>
-        <ListItem>
-          <ListItemButton>
-            <Link href="/">
-              <ListItemText>Gallery</ListItemText>
-            </Link>
-          </ListItemButton>
-        </ListItem>
-        <ListItem>
-          <ListItemButton>
-            <Link href="/details">
-              <ListItemText>Details</ListItemText>
-            </Link>
-          </ListItemButton>
-        </ListItem>
-      </List>
-    );
   };
 
   return (

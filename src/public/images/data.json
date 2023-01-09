@@ -1,0 +1,41 @@
+{
+  "users": [
+    {
+      "name": "Alice"
+    },
+    {
+      "name": "Thomas Rodriguez"
+    },
+    {
+      "name": "Breanne"
+    },
+    {
+      "name": "Chelsea"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Video 1"
+    },
+    {
+      "title": "Video 2"
+    },
+    {
+      "title": "Video 3"
+    }
+  ],
+  "pictures": [
+    {
+      "title": "Picture 1",
+      "url": "/images/photo-1530584379127-80bf85c555ed.avif"
+    },
+    {
+      "title": "Picture 2",
+      "url": "/images/photo-1603314585442-ee3b3c16fbcf"
+    },
+    {
+      "title": "Picture 3",
+      "url": "/images/photo-1611416517780-eff3a13b0359"
+    }
+  ]
+}

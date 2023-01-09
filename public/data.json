@@ -20,15 +20,15 @@
   "videos": [
     {
       "title": "Video 1",
-      "url": "/images/photo-1530584379127-80bf85c555ed.avif"
+      "filename": "photo-1530584379127-80bf85c555ed.avif"
     },
     {
       "title": "Video 2",
-      "url": "/images/photo-1603314585442-ee3b3c16fbcf"
+      "filename": "photo-1603314585442-ee3b3c16fbcf.avif"
     },
     {
       "title": "Video 3",
-      "url": "/images/photo-1611416517780-eff3a13b0359"
+      "filename": "photo-1611416517780-eff3a13b0359.avif"
     }
   ],
   "pictures": [

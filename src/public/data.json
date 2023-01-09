@@ -1,27 +1,34 @@
 {
   "users": [
     {
-      "name": "Alice"
+      "name": "Alice",
+      "photoUrl": "/images/user1.png"
     },
     {
-      "name": "Thomas Rodriguez"
+      "name": "Thomas Rodriguez",
+      "photoUrl": "/images/user2.png"
     },
     {
-      "name": "Breanne"
+      "name": "Breanne",
+      "photoUrl": "/images/user3.png"
     },
     {
-      "name": "Chelsea"
+      "name": "Chelsea",
+      "photoUrl": "/images/user4.png"
     }
   ],
   "videos": [
     {
-      "title": "Video 1"
+      "title": "Video 1",
+      "url": "/images/photo-1530584379127-80bf85c555ed.avif"
     },
     {
-      "title": "Video 2"
+      "title": "Video 2",
+      "url": "/images/photo-1603314585442-ee3b3c16fbcf"
     },
     {
-      "title": "Video 3"
+      "title": "Video 3",
+      "url": "/images/photo-1611416517780-eff3a13b0359"
     }
   ],
   "pictures": [

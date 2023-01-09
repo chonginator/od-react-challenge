@@ -3,7 +3,7 @@ import { Tabs, Tab } from "@mui/material";
 import { TabContext, TabPanel } from "@mui/lab";
 
 const Index = () => {
-  const [currentTabIndex, setCurrentTabIndex] = useState(0);
+  const [currentTabIndex, setCurrentTabIndex] = useState("0");
 
   const handleTabChange = (_, tabIndex) => {
     setCurrentTabIndex(tabIndex);

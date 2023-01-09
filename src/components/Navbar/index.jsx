@@ -23,6 +23,27 @@ const Navbar = () => {
     setIsDrawerOpen(false);
   };
 
+  const NavItems = () => {
+    return (
+      <List>
+        <ListItem>
+          <ListItemButton>
+            <Link href="/">
+              <ListItemText>Gallery</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
+        <ListItem>
+          <ListItemButton>
+            <Link href="/details">
+              <ListItemText>Details</ListItemText>
+            </Link>
+          </ListItemButton>
+        </ListItem>
+      </List>
+    );
+  };
+
   return (
     <AppBar position="static">
       <Toolbar>
@@ -35,22 +56,7 @@ const Navbar = () => {
         </IconButton>
       </Toolbar>
       <Drawer anchor="left" open={isDrawerOpen} onClose={handleDrawerClose}>
-        <List>
-          <ListItem>
-            <ListItemButton>
-              <Link href="/">
-                <ListItemText>Gallery</ListItemText>
-              </Link>
-            </ListItemButton>
-          </ListItem>
-          <ListItem>
-            <ListItemButton>
-              <Link href="/details">
-                <ListItemText>Details</ListItemText>
-              </Link>
-            </ListItemButton>
-          </ListItem>
-        </List>
+        <NavItems />
       </Drawer>
     </AppBar>
   );

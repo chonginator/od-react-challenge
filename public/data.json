@@ -2,19 +2,19 @@
   "users": [
     {
       "name": "Alice",
-      "photoUrl": "/images/user1.png"
+      "photoFilename": "user1.png"
     },
     {
       "name": "Thomas Rodriguez",
-      "photoUrl": "/images/user2.png"
+      "photoFilename": "user2.png"
     },
     {
       "name": "Breanne",
-      "photoUrl": "/images/user3.png"
+      "photoFilename": "user3.png"
     },
     {
       "name": "Chelsea",
-      "photoUrl": "/images/user4.png"
+      "photoFilename": "user4.png"
     }
   ],
   "videos": [

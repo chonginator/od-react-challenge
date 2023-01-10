@@ -11,18 +11,18 @@ import {
 import { AccessTime, ChatBubble, Favorite } from "@mui/icons-material";
 
 const Details = () => {
-  const [data, setData] = useState(null);
+  const [userData, setUserData] = useState(null);
 
   useEffect(() => {
     fetch("/api")
       .then((res) => res.json())
-      .then((data) => setData(data));
+      .then((data) => setUserData(data.users));
   }, []);
 
   return (
     <>
       <h1>Details</h1>
-      {data?.users?.map((user, index) => {
+      {userData?.map((user, index) => {
         return (
           <Card key={index} sx={{ display: "flex" }}>
             <CardMedia
